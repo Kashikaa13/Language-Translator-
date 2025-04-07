@@ -46,3 +46,8 @@ With the rise of globalization, the demand for seamless and effective multilingu
 - Encrypt passwords using hashing (e.g., SHA-256)
 - Improve UI/UX with modern JavaFX
 - Store translation history
+
+
+# Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
