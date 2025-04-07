@@ -1,8 +1,48 @@
-# BasicLanguageTranslator
-The demand for a language translator is increasing due to globalization, for effective communication across languages.
-The objective of this Java project is to create a powerful Language Translator application that will enable smooth text translation between German and English by leveraging the Java Standard Library and JDBC.
-The application connects to a MySQL database and facilitates translation between English and German languages.
-The application demonstrates fundamental concepts such as database connectivity, GUI development, and exception handling in Java programming.
-It also designs and implement a user authentication system to allow users to sign up and log in securely.
-Creates an intuitive and user-friendly GUI using Java Swing to ensure the GUI allows users to interact with the translation system effortlessly.
-Enable users to customize translations by providing options to add, edit, or delete translation entries in the database.
+# Language Translator : English ↔ German
+
+# Project Overview
+
+With the rise of globalization, the demand for seamless and effective multilingual communication is higher than ever. This project presents a Language Translator Application built in Java, designed to translate text between English and German. It demonstrates core Java development principles including GUI design, database connectivity, and exception handling, while offering a secure user authentication system and a user-friendly experience.
+
+# Objectives
+
+- Enable real-time text translation between English and German.
+- Demonstrate practical use of Java Standard Library and JDBC.
+- Connect to a MySQL database to manage translation data.
+- Provide user authentication features (Sign Up & Login).
+- Implement a customizable translation interface for adding, editing, or deleting entries.
+- Build an intuitive GUI using Java Swing for easy interaction.
+
+# Tech Stack
+
+- Java SE
+- Java Swing (GUI)
+- JDBC (Java Database Connectivity)
+- MySQL (Database)
+- MySQL Connector/J (JDBC Driver)
+
+# Modules
+
+1. User Authentication
+- Sign up / Login functionality
+- Password encryption (optional enhancement)
+- Session-based access
+2. Translation Engine
+- Translation lookup from database
+- Display translation results
+- Detects missing entries and offers option to add new ones
+3. Translation Management
+- Admin panel (or user permissions)
+- Add/Edit/Delete translation pairs
+4. Graphical User Interface
+- Built using Java Swing
+- Interactive components (buttons, text fields, labels, etc.)
+- Intuitive layout and navigation
+
+# Future Enhancements
+
+- Add support for additional languages
+- Integrate with Google Translate API
+- Encrypt passwords using hashing (e.g., SHA-256)
+- Improve UI/UX with modern JavaFX
+- Store translation history
